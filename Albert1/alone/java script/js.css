@@ -1,0 +1,61 @@
+#home{
+    height:400px;
+    background: grey;
+    position: relative;
+}
+
+
+.leg{
+   display: grid; 
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+   
+
+    "footer footer footer";
+     
+     
+
+
+}
+
+.header{
+    grid-area: header;
+    background-color: aqua;
+    height:35rem;
+    
+}
+
+ 
+
+.main{
+    grid-area: main;
+    background-color: red;
+    height:20rem;
+}
+
+#footer{
+    grid-area: footer;
+    background-color: yellow;
+    height:20rem;
+    width:40rem;
+    display: block;
+    position: absolute;
+}
+
+#footer:hover{
+    display: none;
+}
+
+ h3{
+    color: aqua;
+    position: absolute;
+    font-size:10rem;
+    transition:2s;
+ }
+
+ h3:hover{
+  
+    font-size:12rem; 
+ }
+ 
